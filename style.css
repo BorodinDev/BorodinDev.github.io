@@ -1,0 +1,63 @@
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* 
+    Flexbox settings
+*/
+
+.flexContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.flexContainer div {
+    width: 70%;
+}
+
+/*
+    Grid settings
+*/
+
+.siteGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+}
+
+.gridMenu {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    border-bottom: black solid 1px;
+    /*grid-template-rows: minmax(50px, auto);*/
+}
+
+.gridMenu div {
+    background: gray;
+    padding: 1em;
+}
+
+/*
+    Article settings
+*/
+
+.articleSection {
+    padding-top:30px;
+}
+
+.articleSection h2 {
+    text-align: center;
+    padding-bottom: 50px;
+}
