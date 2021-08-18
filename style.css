@@ -18,15 +18,10 @@ a:hover {
     Flexbox settings
 */
 
-.flexContainer {
+.container {
     display: flex;
     justify-content: center;
 }
-
-.flexContainer div {
-    width: 70%;
-}
-
 /*
     Grid settings
 */
@@ -54,10 +49,8 @@ a:hover {
 */
 
 .articleSection {
-    padding-top:30px;
+    max-width: 1800px;
+    text-align:justify;
+    padding-top: 50px;
 }
 
-.articleSection h2 {
-    text-align: center;
-    padding-bottom: 50px;
-}
